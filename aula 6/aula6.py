@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('divulgacao_ensino_medio_escolas_2023_normalizado.csv', encoding='latin1', sep=';')
+df = pd.read_csv('ideb_2023.csv', encoding='latin1', sep=';')
 
 print(df.head())
 
